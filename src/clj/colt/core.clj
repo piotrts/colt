@@ -1,6 +1,6 @@
 (ns colt.core
   (:refer-clojure :exclude [send])
-  (:import (java.net.http HttpClient HttpRequest HttpResponse$BodyHandlers HttpClient$Redirect HttpResponse HttpRequest$BodyPublishers)
+  (:import (java.net.http HttpClient HttpClient$Redirect HttpRequest HttpRequest$BodyPublishers HttpResponse HttpResponse$BodyHandlers)
            (java.net URI)
            (java.time Duration)
            (java.util.concurrent CompletableFuture)
